@@ -43,7 +43,7 @@ string encryption()
     return encrypted_word;
 }
 
-string decryption()
+string decryption()         // Seems to be overkill, probably can optimize this somehow
 {
     int number, length;
     string word, decrypted_word;
